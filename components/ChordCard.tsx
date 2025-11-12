@@ -15,11 +15,17 @@ export default function ChordCard() {
 
             <View className={'flex flex-row  mx-auto  ' }>
                 <View className={'bg-blue-700 p-3 my-2 items-center mx-2  rounded'}>
+                    <TouchableOpacity>
+                        <FaPlay size={28} color={'white'}/>
 
-                    <FaPlay size={28} color={'white'}/>
+                    </TouchableOpacity>
+
                 </View>
                 <View className={'bg-blue-700 p-3 my-2 items-center mx-2 rounded'}>
-                    <FaStopCircle  size={28} color={'white'}/>
+                    <TouchableOpacity>
+                        <FaStopCircle  size={28} color={'white'}/>
+
+                    </TouchableOpacity>
                 </View>
 
             </View>
