@@ -1,10 +1,9 @@
+import { FontAwesome5 } from "@expo/vector-icons";
 import React from 'react';
-import { View, Text } from 'react-native';
-
-import { FaGuitar,FaHome,FaMusic } from "react-icons/fa";
-
+import { Text, View } from 'react-native';
 
 export default function AllKeysMajor() {
+
     return (
         <View
             className="mx-5 my-3 rounded-xl p-8"
@@ -19,10 +18,9 @@ export default function AllKeysMajor() {
         >
             {/* Icon Circle */}
             <View className="w-20 h-20 rounded-full bg-blue-200 justify-center items-center mb-6 self-center">
-                <FaGuitar size={38}  color={'blue'} />
+                <FontAwesome5 name="guitar" size={38} color="blue" />
             </View>
 
-            {/* Title */}
             <Text
                 className="text-white text-2xl font-bold text-center"
                 style={{
